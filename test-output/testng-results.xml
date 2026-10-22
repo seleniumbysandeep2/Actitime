@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[Create Customer]]>
+    </line>
+    <line>
+      <![CDATA[SBI_007is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-17T11:47:09 IST" name="Default suite" finished-at="2026-10-17T11:47:19 IST" duration-ms="9666">
+    <groups>
+    </groups>
+    <test started-at="2026-10-17T11:47:09 IST" name="Default test" finished-at="2026-10-17T11:47:19 IST" duration-ms="9666">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@6913c1fb]" started-at="2026-10-17T11:47:09 IST" name="openBrowser" finished-at="2026-10-17T11:47:12 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@6913c1fb]" started-at="2026-10-17T11:47:12 IST" name="login" finished-at="2026-10-17T11:47:13 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@6913c1fb]" started-at="2026-10-17T11:47:13 IST" name="testCreateCustomer" finished-at="2026-10-17T11:47:17 IST" duration-ms="3781" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create Customer]]>
+            </line>
+            <line>
+              <![CDATA[SBI_007is created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@6913c1fb]" started-at="2026-10-17T11:47:17 IST" name="logOut" finished-at="2026-10-17T11:47:19 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@6913c1fb]" started-at="2026-10-17T11:47:19 IST" name="closeBrowser" finished-at="2026-10-17T11:47:19 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
